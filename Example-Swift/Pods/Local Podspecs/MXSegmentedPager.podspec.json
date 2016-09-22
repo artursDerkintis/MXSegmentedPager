@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "HMSegmentedControl": [
-      "~> 1.5.2"
+      "~> 1.5.3"
     ],
     "MXPagerView": [
       "~> 0.1.3"
