@@ -23,6 +23,7 @@
 #import <UIKit/UIKit.h>
 #import <HMSegmentedControl/HMSegmentedControl.h>
 #import <MXPagerView/MXPagerView.h>
+#import <MXParallaxHeader/MXScrollView.h>
 #import <MXParallaxHeader/MXParallaxHeader.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -188,7 +189,7 @@ typedef NS_ENUM(NSInteger, MXSegmentedControlPosition) {
  Delegate instance that adopt the MXSegmentedPagerDelegate.
  */
 @property (nonatomic, weak) id<MXSegmentedPagerDelegate> delegate;
-
+@property (nonatomic, strong) MXScrollView          *contentView;
 /**
  Data source instance that adopt the MXSegmentedPagerDataSource.
  */

@@ -25,7 +25,7 @@
 #import "MXSegmentedPager.h"
 
 @interface MXSegmentedPager () <MXScrollViewDelegate, MXPagerViewDelegate, MXPagerViewDataSource>
-@property (nonatomic, strong) MXScrollView          *contentView;
+
 @property (nonatomic, strong) HMSegmentedControl    *segmentedControl;
 @property (nonatomic, strong) MXPagerView           *pager;
 @end
