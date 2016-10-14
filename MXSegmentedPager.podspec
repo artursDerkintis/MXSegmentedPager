@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'MXSegmentedPager/*.{m,h}'
   s.public_header_files = ["MXSegmentedPager/*.h"]
-  s.dependency 'HMSegmentedControl', '~> 1.5.3', :git => "https://github.com/artursDerkintis/HMSegmentedControl"
+  s.dependency 'HMSegmentedControl', '~> 1.5.3', :git => "https://github.com/artursDerkintis/HMSegmentedControl.git"
   s.dependency 'MXPagerView', '~> 0.1.3'
   s.dependency 'MXParallaxHeader', '~> 0.5.2'
   
